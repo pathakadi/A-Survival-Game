@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDG Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img src="logo/logo.png" id="logo" alt=""></li>
+            <li class="brand">EatRunBurn</li>
+            <li id="hiscoreBox">Highest Score: 0</li>
+            <li id="score">Score : 0</li>
+            <li id="energy">Energy : 500cal</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div id="runner">
+            <img src="GIF/running.gif"  id="gif" alt="" />
+        </div>
+        <div id="food" class="move">
+            <img src="Images/1.jpeg" id="imgF" alt="">
+            <div id="foodName"></div>
+        </div>
+    </div>
+    <div id="overEat">
+        <h1>⬇⬇⬇ Energy And Speed Decreasing ⬇⬇⬇</h1>
+    </div>
+    <div id="result">
+        <h1>Game Over!</h1>
+        <h2 id="finalScore"></h2>
+        <button id="re" onclick="location.reload()">RESTART</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
