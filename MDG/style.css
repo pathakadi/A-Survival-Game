@@ -146,13 +146,23 @@ h2{
     padding: 10px;
 }
 
-#re{
+button{
     background-color: rgb(26, 144, 26);
     padding: 10px;
     margin-top: 10px;
     border: 2px solid black;
     border-radius: 15px;
     color: yellow;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#user{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
     font-family: 'Ubuntu', sans-serif;
 }
 
