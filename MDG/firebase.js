@@ -19,7 +19,6 @@ const db = getFirestore(app);
 const submit = document.getElementById("submit") ;
 
 submit.addEventListener("click" , ()=>{
-    console.log("hi") ;
     var user_name = document.getElementById("user").value ;
     var score = document.getElementById("finalScore").innerHTML ;
 
@@ -27,4 +26,5 @@ submit.addEventListener("click" , ()=>{
 
     const cityRef = doc(db, user_name , score);
     setDoc(cityRef, { capital: true }, { merge: true });
+    console.log("Data Saved") ;
 })
