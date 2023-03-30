@@ -101,7 +101,6 @@ window.addEventListener("keydown" , (e)=>{
                 mainEnergy = mainEnergy + energyValue ;
                 energy.innerHTML = "Energy : " + mainEnergy + "cal" ;
             }
-            var gifChange = false ;
             // Decrease Energy if <= 1000 
             if(mainEnergy <= 1000){
                 mainEnergy = mainEnergy - 2 ;
